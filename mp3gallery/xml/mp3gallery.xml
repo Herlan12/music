@@ -23,14 +23,14 @@
 			
 			<tracks>
 				<item id="11">
-					<title><![CDATA[Mix Track 2]]></title>
+					<title><![CDATA[mp 2]]></title>
 					<artist><![CDATA[feat. Eo]]></artist> <!-- if you want this item to have a different artist(for example featuring artist write the text in this tag -->
 					<duration>00:31</duration> <!-- define this only if is the correct duration, otherwise it will make the song to jump incorrectly -->
 					
 					<buy price = "0.99" url = "http://www.flabell.com" target = "_blank">Buy</buy> <!-- if you want this item to have a different text then the general text, write the text in this tag 
 																									 if the url is empty then the button won't appear-->
 
-					<song>content/songs/song1.mp3</song>
+					<song>https://dl.dropboxusercontent.com/s/ezrx8k3boeoq3uh/Myth.mp3</song>
                     
                     <!-- if you want to use RTMP streaming use this "song" tag like below -->
                     <!-- 
