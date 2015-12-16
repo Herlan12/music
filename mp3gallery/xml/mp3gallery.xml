@@ -121,11 +121,11 @@
 			
 			<tracks>
 				<item id="21">
-					<title><![CDATA[lagu 1]]></title>
-					<artist><![CDATA[Artist name 1]]></artist>
+					<title><![CDATA[Ai Qing]]></title>
+					<artist><![CDATA[Teresa Teng]]></artist>
 					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
 					<duration>00:31</duration>
-					<song>content/songs/song1.mp3</song>
+					<song>https://copy.com/JdqeDcvqYtDvZ8m4/Ai%20Qing.mp3</song>
 				</item>
 				<item id="22">
 					<title><![CDATA[Track title 2]]></title>
