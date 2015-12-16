@@ -2,7 +2,7 @@
 
 <mp3gallery>
 	
-	<albums startAlbumNo = "">
+	<albums startAlbumNo = "2">
 		
 		<!-- if this album tag will not be here, the player will work as usual -->
         <album id="1">
