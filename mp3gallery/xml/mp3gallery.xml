@@ -123,7 +123,7 @@
 				<item id="21">
 					<title><![CDATA[Track title 1]]></title>
 					<artist><![CDATA[Artist name 1]]></artist>
-					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<buy url = "http://mp3-mandarin.blogspot.com" target"_blank">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
 					<duration>00:31</duration>
 					<song>content/songs/song1.mp3</song>
 				</item>
