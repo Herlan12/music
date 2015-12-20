@@ -2,7 +2,7 @@
 
 <mp3gallery>
 	
-	<albums startAlbumNo = "2">
+	<albums startAlbumNo = "">
 		
 		<!-- if this album tag will not be here, the player will work as usual -->
         <album id="1">
@@ -121,11 +121,11 @@
 			
 			<tracks>
 				<item id="21">
-					<title><![CDATA[Lagu 1]]></title>
-					<artist><![CDATA[Artist Lagu 1]]></artist>
-					<buy url = "http://mp3-mandarin.blogspot.com" target"_blank">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<title><![CDATA[Ai Qing]]></title>
+					<artist><![CDATA[Teresa Teng]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
 					<duration>00:31</duration>
-					<song>content/songs/song1.mp3</song>
+					<song>https://copy.com/JdqeDcvqYtDvZ8m4/Ai%20Qing.mp3</song>
 				</item>
 				<item id="22">
 					<title><![CDATA[Track title 2]]></title>

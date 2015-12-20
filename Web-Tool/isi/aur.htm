@@ -1,0 +1,81 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Air Supply – Goobye</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+</style>
+
+</head>
+
+<body>
+<b>Decode eval JavaScript</b> - Selamat siang para blogger semua yang semoga saja tengah sehat dan sejahtera :v . Kali ini saya akan berbagi sebuah trik langka , eh tapi gak juga ketang , udah basi banget mungkin . Tapi sangat berguna sekali . Terutama untuk para Template Modifier yang rajin update interface template blognya .<br />
+<br />
+Ada kalanya kita kesal sekali saat mendownload tempalte dan ternyata di template tersebut ada sebuah link kredit yang tidak bisa dihapus bahkan sama sekali tidak bisa disembunyikan . Hal ini bisa kita temui di template yang dibagikan oleh converter template blogger soratemplates.com .<br />
+<br />
+Tidak hanya soratemplates saja ,ada banyak sekali penyedia template yang menggunakan trik ini sebagai lahan bisnis bagi mereka . Selain akan memberikan backlink ( mungkin ) , mematenkan link credit juga akan berdampak secara finansial untuk mereka si pembuat template . Dan hal itu tentu akan menjadi masalah kalau kita mengetahui latar belakang pemasangan link credit model begini .<br />
+<br />
+Dengan mereka menanamkan link Credit permanen tentu akan membuat para si pendownload template meminta si pembuatnya untuk menghilangkan link tersebut , tentunya dengan biaya tambahan , biasanya berkisar $10 . Selain itu si pembuat template juga biasanya membuka kesempatan bagi para blogger untuk ikut menitipkan link kredit pada footer template buatan mereka dan tentunya dengan bayaran $10 .<br />
+<br />
+Memang , dalam hal pemakaian template , Credit link si pembuat template harus terpasang sebagai tanda penghormatan dari kerja kerasnya membuat template . Tapiii , karena kita juga biasanya ingin memodifikasi tempalte tersebut sesuai dengan keinginan kita , yang biasanya sudah lepas dari pakem template download tersebut akan membuat kita sedikit kesal karena kerja keras kita memodifikasi template masih akan diakui oleh si pembuat template . Pernah mengalami hal tersebut ?<br />
+<br />
+Terserah saja jika saya dianggap memberikan trik illegal dan kriminal , tapi pada dasarnya hal ini memang selalu jadi konflik batin tersendiri . Apalagi kalau blog yang kita kembangkan adalah untuk sebuah layanan bisnis , tentu pemasangan link kredit si pembuat template akan sangat mengganggu . Dan kita memang harus menghilangkannya .<br />
+<br />
+Tapi tidak semudah itu menghilangkan link credit yang sudah di kemas dalam javascript . Jika di soratemplates biasanya tampilan blog akan rusak setelah kita menghilangkan link credit , atau minimal redirect ke situs pembagi template tersebut .<br />
+<br />
+Dan dikesempatan kali ini saya akan berbagi cara mudah untuk membongkar Javascript link credit .<br />
+Caranya adalah mendecode atau mendecrypt javascript tersebut menjadi javascript mentah . Biasanya javascript tempat penyimpanan Link Credit adalah dengan&nbsp;<span style="font-family: monospace; white-space: pre-wrap;">eval(function(p,a,c,k,e,r) . </span><br />
+<br />
+Caranya adalah kita harus Decode eval Script tersebut dengan fasilitas decoder dibawah ini . Selanjutnya kita akan menemukan beberapa hal yang musti kita ubah , misal saja link penyedia template tersebut .<br />
+<br />
+
+Oke , langsung saja Kalian gunakan tool dibawah ini untuk mendecode eval javascript .<br />
+<br />
+<h2>
+JavaScript Decoder</h2>
+<br />
+<br />
+<div>
+Input Text</div>
+<textarea id="txtInput" style="height: 253px; width: 93%;"></textarea>
+
+<input class="button" onclick="Decode()" style="width: 198px;" type="button" value="Decode" />
+
+<br />
+<div>
+Output</div>
+<textarea id="txtOutput" style="height: 273px; width: 93%;"></textarea>
+<style type="text/css">
+textarea {
+color:#666;
+border:1px solid #111;
+border-width:1px 0 0 0;
+border-bottom:1px solid #333;
+border-left:3px solid #191919;
+max-height:400px;
+overflow:auto;border-radius:20px;
+background:url(http://3.bp.blogspot.com/-NZVjfpeLfSY/UmlfA1GffHI/AAAAAAAABD0/90zXlS0rbVI/s200/bg-y.jpg) repeat;margin:0;padding:6px 16px 8px;font:regular 12px/20px Georgia,"Times New Roman",Times,serif;
+box-shadow: inset 0 2px 7px #000;
+-moz-box-shadow: inset 0 2px 7px #000;
+-webkit-box-shadow: inset 0 2px 7px #000;}
+.post h3.post-title a, .postthumbSumm h4.postthumbTitle a{
+font-size: 24px;
+color: #585858;
+text-decoration: none;
+font-family: 'Yanone Kaffeesatz', Tahoma, Arial, Helvetica, Sans-Serif;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function Decode() {
+eval("var value=String" + txtInput.value.slice(4));
+txtOutput.value = value;
+}
+</script>
+<br /></body>
+</html>
